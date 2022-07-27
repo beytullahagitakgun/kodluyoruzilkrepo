@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header .logo{   
+            display: flex;
+            justify-content: center;
+        }
+
+        nav{
+            background-color: wheat;
+        }
+
+        .search{
+            text-align: center;
+        }
+
+        .searchbox{
+            width: 300px;
+        }
+
+        .specialsearch{
+            background-color: rgb(115, 246, 246);
+            width: 600px;
+            height: 80px;
+            padding: 15px;
+            margin: 5px;
+            text-align: center;
+
+        }
+
+        .specialsearch ul{
+            list-style: none;
+        }
+
+        .help{
+            background-color: rgb(127, 223, 223);
+            width: 350px;
+            height: 80px;
+            padding: 15px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .help ul{
+            list-style: none;
+        }
+
+        article{
+            display: flex;
+        }
+
+        .getgoogle{
+            background-color: rgb(27, 210, 210);
+            width: 500px;
+            height: 80px;
+            padding: 15px;
+            margin: 5px;
+            text-align: center;
+            
+        }
+        
+        .searchboxx{
+            width: 200px;
+        }
+
+        footer{
+            text-align: center;
+            margin: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="google.jpg" alt="google">
+        </div>
+        <nav>
+            <div class="search">
+                <p>Search the web using Google!</p>
+                <input type="text" name="search" class="searchbox">
+                <br>
+                <button type="button" >Google Search</button>
+                <button type="button">I'm feeling lucky</button>
+
+            </div>
+
+        </nav>
+    </header>
+
+<section>
+    <article>
+        <div class="specialsearch">
+            <p>Special Searches</p>
+            <ul>
+                <li><a href="#">Stanford Search</a></li>
+                <li><a href="#">Linux Search</a></li>
+            </ul>
+        </div>
+        <div class="help">
+            <ul>
+                <li><a href="#">Help!</a></li>
+                <li><a href="#">About Google!</a></li>
+                <li><a href="#">Company Info</a></li>
+                <li><a href="#">Google Logos</a></li>
+            </ul>
+        </div>
+        <div class="getgoogle">
+            <p>Get Google!</p>
+            <p>updates monthly.</p>
+            <input type="email" name="email" class="searchboxx">
+            <br>
+            <button type="button" >Subscribe</button>
+            <a href="#">Archive</a>
+        </div>
+    </article>
+</section>
+
+<footer>
+    <p>Copyright ©1998 Google Inc.</p>
+</footer>
+</body>
+</html>
